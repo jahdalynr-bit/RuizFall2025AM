@@ -1,0 +1,97 @@
+body{
+background-color:#044f18;
+color: #ff7300;
+font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
+  padding:0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+}
+
+p{
+   font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 900;
+  font-style: 100;
+}
+p {
+    font-family: "Edu SA Hand", cursive;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+header {
+    background-color: #6600ff;
+    text-align: center;
+    padding: 30px;
+}
+header h1 {
+  text-transform: uppercase;
+}
+nav {
+    background-color: #ffff80;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    border-radius: 15px;
+
+}
+nav a {
+    color: #8800ff;
+    text-decoration: none;
+    /* shorthand for margin top/bottom and margin left/right */
+    margin: 0px 20px; 
+    letter-spacing: 3px;
+}
+
+nav a:hover {
+color: rgb(100, 206, 7);
+text-decoration: underline;
+}
+
+main{
+    background-color: rgb(0, 255, 119);
+    padding: 50px 100px;
+    box-shadow: 5px 5px 15px #555;
+}
+main h2 {
+    font-size: 54px;
+    margin: 10px 0px;
+}
+main h3 {
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+main h1, main h2 {
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+main p {
+    margin: 20px 0px;
+        font-size: 18px;
+        color: #000
+        line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+footer{
+   background-color: #00fc32;
+  padding: 40px;
+  text-align: center;          
+  border-top: 5px solid #000000; 
+  font-size: 20px;                      
+  letter-spacing: 2px;         
+  word-spacing: 6px;   
+  background-image: linear-gradient(#fc0000, #0040ff);  
+}
