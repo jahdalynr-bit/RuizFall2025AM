@@ -1,0 +1,92 @@
+body {
+    background-color: #fcdc3b;
+    margin: 0;
+    padding: 0;
+    font-family: "STIX Two Text", serif;
+    background-image: url("images/image1.jpg");
+    background-repeat: repeat;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 60%;
+    background-color: #4385f7;
+}
+
+header h1,
+header h2,
+h3,
+nav {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
+
+.wow {
+    color: #ff8400;
+    font-weight: bold;
+}
+
+.focus {
+    color: #ff88fb;
+    font-weight: bold;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 24px;
+}
+#intro {
+    font-size: 20px;
+    color: #4bff0a;
+    line-height: 28px;
+}
+
+
+#fun-facts {
+    font-size: 18px;
+    color: #760dff;
+    line-height: 24px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 2px solid #a80404;
+    padding: 10px;
+}
+
+th {
+    background-color: #c8c8c8;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between; 
+    margin: 1rem 0;
+}
+
+.image-row .feature-img {
+ width: 30%; 
+    margin: 0;   
+}   
+.feature-img {
+    display: block;
+    margin: 1rem auto;
+    width: 40%; 
+    max-width: 100%; 
+    height: auto; 
+}
+footer {
+    font-family: "STIX Two Text", serif;
+    padding: 1rem 0;
+}
