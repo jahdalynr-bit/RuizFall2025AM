@@ -1,0 +1,131 @@
+body {
+    background-color: #000;
+    background-image: url("images/06.jpg");
+    background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+    /* background-position-y: bottom;  */
+
+    margin: 0;
+    padding: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* 200 – 800 */
+    font-style: normal;
+
+}
+
+/* id rule uses hashtag #, only one per page */
+#wrapper {
+    margin: 100px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 30px 50px;
+        /* background-image: url("images/moss03.jpg"); */
+}
+
+/* class rules use a period to make a rule about a class, use multiple times */
+.wow {
+    color: #f00;
+    font-weight: 900;
+    font-style: italic;
+    border: solid #2890EB 3px;
+}
+
+header h1 {
+
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 66px;
+}
+
+nav{
+
+background-color: #75b7f1;  
+padding:   40px 10px;
+text-align: center;
+
+}
+
+nav a{
+
+    border: 2px solid rgb(155, 79, 231);
+    padding: 10px 20px;
+    margin: 0px 20px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #e4780d;
+}
+
+main p {
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
+table, th, td, tr {
+margin: 0px;
+padding: 0px;
+
+}
+
+
+main table {
+border: 10px solid rgb(192, 192, 192);
+    background-color: rgb(255, 207, 74);
+
+}
+
+main table th {
+border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(155, 155, 155);
+        font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 33px;
+    padding:22px;
+
+}
+
+main table td {
+border: 5px solid rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+
+}
+
+main h2{
+border: solid 10px rgb(255, 149, 0);
+background-color:rgb(111, 164, 244);
+font-size: 33px;
+padding: 50px 10px 10px 10px;
+margin: 100px 0px 20px 0px;
+
+}
+main div.featuredImage {
+    border: 5px solid #075817;
+    background-color: #6ce682;
+    padding: 40px;
+    width: 200px;
+    margin: 100px;
+    text-align: center;
+}
+
+main div.featuredImage img {
+   width: 100%;
+}
+.funFact {
+    background-color: #a683f0; 
+    border: 3px solid #262691; 
+    padding: 20px;
+    margin: 40px 0;
+    text-align: center;
+}
