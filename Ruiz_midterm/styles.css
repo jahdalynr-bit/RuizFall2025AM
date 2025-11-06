@@ -1,0 +1,143 @@
+/* border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* remove margin and padding on body */
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  background-image: url('images/backgroundimage.jpg');
+  font-family: "Lexend", sans-serif;
+}
+
+.englebert-regular {
+  font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Grouping example */
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: "Englebert", cursive;
+}
+
+.lexend {
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wrapper {
+  background: #41b0f5;
+  width: 80%;
+  margin: 0 auto;
+
+  display: grid;
+  /* create 12 col layout */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* padding on immediate children of wrapper */
+.wrapper>* {
+  padding: 20px;
+}
+
+header {
+  background: #ff3c3c;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+}
+
+main {
+  background: #ffffff;
+  /* span 6 cols */
+  grid-column: 4 / 10;
+}
+
+nav {
+  background: #66bbf4;
+  /* span 3 cols */
+  grid-column: 1 / 4;
+}
+
+nav ul {
+  list-style-type: none;        
+  margin: 0;                     
+  padding: 0;
+  overflow: hidden;                    
+  background-color: #ffffff;     
+  display: flex;                
+}
+
+nav ul li a {
+  display: block;                
+  color: #1900ff;                  
+  padding: 14px 19px;            
+  text-decoration: none;        
+}
+
+nav ul li a:hover {
+  background-color: #b68eff;     
+}
+
+nav div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/imageflag4.jpg');
+  background-size: cover;
+  background-position: center;
+  animation-name: changeBackground;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeBackground {
+  0%   { background-image: url('images/imageflag4.jpg');}
+  25%  { background-image: url('images/imageflag1.jpg');}
+  50%  { background-image: url('images/imageflag2.jpg'); }
+  100% { background-image: url('images/imageflag3.jpg'); }
+}
+
+aside {
+  background: #405ffc;
+  /* span 3 cols */
+  grid-column: 10 / 13;
+  font-weight: bold;
+}
+
+/* span 2 rows */
+main,
+nav,
+aside {
+  grid-row: 2 / 4;
+}
+
+footer {
+  background: #ff3c3c;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+}
+img {
+  width: 225px;
+  margin: 10px;
+  border-radius: 10px;
+  display: block;
+  grid-column: 4 / 10;
+}
