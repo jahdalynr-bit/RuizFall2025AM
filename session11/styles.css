@@ -1,0 +1,68 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #f24c4c; 
+}
+
+h1 {
+	color: #000000;
+	text-align: center;
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #91ff89;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.fruit-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.fruit {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.basket-walls {
+    height: 40%;              
+    width: 55%;              
+    background-color: #c49a6c;  
+    border: 4px solid #8b5a2b;  
+    position: absolute;
+    bottom: 10%;              
+    left: 22%;                
+    z-index: 1;
+}
+
+.basket-top {
+    width: 60%;               
+    height: 6%;               
+    background-color: #8b5a2b;  
+    position: absolute;
+    bottom: 50%;              
+    left: 20%;               
+    z-index: 1;
+}
+
+#basket-container {
+  position: relative;
+  width: 320px;  
+  height: 230px; 
+  margin: 50px auto; 
+}
